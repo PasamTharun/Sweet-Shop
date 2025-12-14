@@ -82,9 +82,10 @@ cp .env.example .env
 docker-compose up -d
 python scripts/create_admin.py  # admin@shop.com / admin123
 uvicorn app.main:app --reload
-
 ---
-#2️⃣ Frontend Setup
+
+
+##2️⃣ Frontend Setup
 
 ```bash
 cd candy-shop-ui
